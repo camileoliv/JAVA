@@ -1,0 +1,42 @@
+Variaveis:
+int é inteiro
+double armazena inteiro e frações
+char só guarda um caracter e precisa de aspas simples
+boolean retorna true ou false
+
+Tipos primitivos
+byte
+short
+long
+float
+
+PrintIn não imprime com porcentagem".2f"
+
+Imprimir: 
+System.out.println
+System.out.printf
+
+-----------------------
+Casting é quando um número quebrado é arredondado para ser armazenado numa variavel inteira
+exemp: 
+double d3 = 3.14;
+int i = (int) d3;
+
+Verificar tabela de castings pag 26
+-----------------------
+
+Operadores lógicos:
+|| -> equivale ao OU
+&& -> equivale ao E
+! -> equivale ao NÃO
+
+Operadores de igualdade:
+== -> equivale ao igual
+!= -> equivale a diferença
+
+Operadores compostos:
+// Ao invés de escrever: numero = numero + 5, com operador composto dá pra escrever: numero += 5 //
++= -> abreviação de uma conta de soma
+-= -> abreviação de uma conta de subtração
+*= -> abreviação de uma conta de multiplicação
+/= -> abreviação de uma conta de divisão
