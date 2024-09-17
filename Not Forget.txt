@@ -1,0 +1,11 @@
+@Override: é polimorfismo
+estanciar: é iniciar o objeto (ex: int numero= 1;)
+private-public: é encapsular uma variável para que outra parte do código não acesse com facilidade
+construtor: é uma busca seletiva
+sobrecarga: é quando 
+get/set: get é para acessar/visualizar, set é quando vai ser modificado 
+parametror: é o parâmetro do construct que não é um atributo da classe
+toda classe precisa compartilhar os mesmos atributos, quando tiver um que não vai ser usado por todos, se usa o parametror (ex: deposito(quantia:inicialDeposito))
+parâmetro normal: é um atributo que vai ser utilizado numa parte especifica (ex: constrcut, metodo)
+toString: é uma formatação de objeto
+Depois de chamar um metodo/coonstruct para o main, após pedir as informações a serem adicionadas nas variaveis é para
