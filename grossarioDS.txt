@@ -1,0 +1,24 @@
+Quando tem uma classe abstrata sem nenhum atributo, tendo apenas métodos asbtratos, pode transformar numa interface
+Interfaces automaticamente tem metodos abstratos, elas não tem atributos, todos eles são public static final , logo não precisa escrever isso
+
+extends impossibilita utilizar outras classes no java
+super. quando extende uma classe dá pra utilizar os metodos com mais facilidade
+composição é mais flexivel e permte "herança múltipla"
+
+---------------------------------
+
+Client = classe onde utiliza o método, podendo ser ela a principal ou não
+Adapter = classe onde é feita essa adaptação chamando o adaptee
+Adaptee = classe que está sendo adaptada, que não pode ser implementada no client
+Target = a implementação que vc esta querendo fazer, no caso a interface ()
+
+
+
+antes de implementar, se deve observar se de fato tem a necessidade de criar um adapter
+
+adapter necessariamente não é um recurso visível, é uma estrutura de código
+
+
+
+
+deixa a responsabilidade de futuras implementações para o client provendo uma interface pública para seus adaptadores
