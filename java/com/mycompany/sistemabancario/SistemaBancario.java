@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class SistemaBancario {
 
     public static void main(String[] args) {
-        // CLIENT - Utilizando o adapter
+        // CLIENT - Acessando a Interface para acessar as funcionalidades
         // Declaração de variáveis
         
         String chave;
