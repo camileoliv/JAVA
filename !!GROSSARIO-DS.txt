@@ -5,6 +5,10 @@ extends impossibilita utilizar outras classes no java
 super. quando extende uma classe dá pra utilizar os metodos com mais facilidade
 composição é mais flexivel e permte "herança múltipla"
 
+ArrayList= é um conjunto de vetores diferentes
+Array= é um vetor
+equalsIgnoreCase = que força o computador a entender independente de colocar letra minúscula ou maiúscula 
+.............................
 ---------------------------------
 
 Client = classe onde utiliza o método, podendo ser ela a principal ou não
