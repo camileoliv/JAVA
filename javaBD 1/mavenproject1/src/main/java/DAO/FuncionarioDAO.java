@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
 public class FuncionarioDAO {
     Connection conn;
     PreparedStatement pstm;
-    public void cadastrarFuncionario(FuncionarioDTO funcionariodto){
+    public void cadastrarFuncionario(FuncionarioDTO funcionariodto/*/Passando o objeto q estava no formulario/*/){
         String sql = "insert into tabela(nome,cidade) values(?,?)";
         conn = new Conexao().conectaBD();
         
