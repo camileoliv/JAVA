@@ -18,12 +18,12 @@ public class Conexao {
     public Connection conectaBD(){
         Connection conn = null;
         
-        try {
+        try /*/É utilizado como um if else e o cath mostra o erro (se tiver)/*/{
             String url = "jdbc:mysql://localhost/banco?user=root&pasword";
-            conn = DriverManager.getConnection(url);
+            conn = DriverManager.getConnection(url); /*/Envia a conexão /*/
             
-        } catch (SQLException e) {
-            JOptionPane.showMessageDialog(null, e.getMessage());
+        } catch (SQLException e/*/Variavel onde o erro é jogado/*/) {
+            JOptionPane.showMessageDialog(null, e.getMessage/*/getMessage puxa o erro e joga na variavel designada para mostrar/*/());
         }
     return conn;
     }
